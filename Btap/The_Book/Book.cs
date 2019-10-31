@@ -48,7 +48,8 @@ namespace The_Book
 
         public override string ToString()
         {
-            return string.Format("Book[ name={0}, Author[ name={1}, email={2}, gender={3}, price={4}, qty={5}]]", this.Name, Author.GetName(), Author.GetEmail(), Author.GetGender(), this.Price, this.Qty);
+            return string.Format("Book[ name={0}, Author[ name={1}, email={2}, gender={3}, price={4}, qty={5}]]",
+                this.Name, Author.GetName(), Author.GetEmail(), Author.GetGender(), this.Price, this.Qty);
         }
 
         public string GetAuthorName()
